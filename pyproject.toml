@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "lecture-9-standard-libraries"
+version = "0.1.0"
+description = ""
+authors = ["Nicolay Veniaminov <nicolay.veniaminov@dct-ai.com>"]
+readme = "README.md"
+packages = [{include = "lecture_9_standard_libraries"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
